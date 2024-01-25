@@ -12,13 +12,13 @@
  3. Fetch like count of particular tweet by tweet id.
 ```sql
   SELECT COUNT(*) AS likeCount FROM likes
-  WHERE tweetId = 1;
+  WHERE id = 1;
 ```
 
  4. Fetch retweet count of particular tweet by tweet id.
 ```sql
   SELECT COUNT(*) AS retwetCount FROM retweets
-  WHERE tweetId = 1;
+  WHERE id = 1;
 ```
 
  5. Fetch comment count of particular tweet by tweet id.
