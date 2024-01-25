@@ -46,8 +46,8 @@
   SELECT u.name, t.tweetContent FROM tweets t 
   JOIN users u
   ON t.postedBy = u.id JOIN user_followers uf 
-  ON uf.followeID = t.postedBy
-  WHERE uf.folowerId = 1 
+  ON uf.followeeID = t.postedBy
+  WHERE uf.followerId = 1 
   ORDER BY t.createdAt DESC;
 ```
 #
